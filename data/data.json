@@ -1,0 +1,1157 @@
+[
+    {
+        "id": 59,
+        "name": "Antennehoes",
+        "quantity": 8,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 2",
+        "comments": "Nieuwe hoezen, eigendom van VTC. We houden deze als reservehoezen in geval van nood. In principe is het de taak van de gemeente om degelijke hoezen te leveren.",
+        "timestamp": "2025-08-28T19:44:59+02:00",
+        "photos": [
+            "59_1.jpg"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Antennes",
+        "quantity": 7,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-23T20:15:46+02:00",
+        "photos": [
+            "60_1.jpg"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Balansbord",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-08-23T20:24:45+02:00",
+        "photos": [
+            "45_1.jpg"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Ballenkar",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Zaal",
+        "comments": "",
+        "timestamp": "2025-08-26T10:56:02+02:00",
+        "photos": [
+            "43_1.jpg",
+            "43_2.JPG"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Ballenkar H1\/D1",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Lokaal",
+        "comments": "",
+        "timestamp": "2025-06-01T07:22:01+02:00",
+        "photos": []
+    },
+    {
+        "id": 40,
+        "name": "Ballenkar winkelwagen",
+        "quantity": 4,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:14+02:00",
+        "photos": []
+    },
+    {
+        "id": 44,
+        "name": "Ballenkasten",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Kantine",
+        "comments": "",
+        "timestamp": "2025-06-01T09:51:46+02:00",
+        "photos": [
+            "44_1.jpg"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Beachveld",
+        "quantity": 5,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Vide",
+        "comments": "Conditie moet worden uitgezocht\r\nBeachvelden zijn verdeeld over 2 kisten. 1 kist met 3 velden, 1 kist met 2 velden.",
+        "timestamp": "2025-06-01T07:21:48+02:00",
+        "photos": []
+    },
+    {
+        "id": 54,
+        "name": "Coachkaarten",
+        "quantity": 7,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:38:47+02:00",
+        "photos": [
+            "54_1.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "D-ringen",
+        "quantity": 23,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Beheerdersruimte",
+        "comments": "",
+        "timestamp": "2025-08-28T19:45:39+02:00",
+        "photos": [
+            "20_1.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Diverse kleine ballen",
+        "quantity": 5,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:28:18+02:00",
+        "photos": [
+            "23_1.jpg"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "EHBO kist rood",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "Gevuld met losse ice packs and verband",
+        "timestamp": "2025-08-23T19:39:18+02:00",
+        "photos": [
+            "55_1.jpg"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "EHBO koffer",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Keuken",
+        "comments": "Conditie moet worden bekeken",
+        "timestamp": "2025-06-01T06:59:26+02:00",
+        "photos": []
+    },
+    {
+        "id": 76,
+        "name": "Fitness ball 65cm",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-20T12:13:11+02:00",
+        "photos": []
+    },
+    {
+        "id": 49,
+        "name": "Hoge hoedjes",
+        "quantity": 7,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-04T17:34:12+02:00",
+        "photos": [
+            "49_1.jpg"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Hoogtemeter",
+        "quantity": 2,
+        "owner": "gemeente",
+        "condition": "redelijk",
+        "location": "Zaal",
+        "comments": "Functioneert maar is erg oud",
+        "timestamp": "2025-06-01T09:52:52+02:00",
+        "photos": [
+            "37_1.jpg"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Hordes groot",
+        "quantity": 4,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-08-26T19:14:50+02:00",
+        "photos": [
+            "81_1.jpg"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Hordes klein",
+        "quantity": 4,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-08-26T19:14:22+02:00",
+        "photos": [
+            "80_1.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Karabijnhaken",
+        "quantity": 25,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Beheerdersruimte",
+        "comments": "",
+        "timestamp": "2025-08-26T10:28:49+02:00",
+        "photos": [
+            "19_1.jpg"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Korf 1",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:21+02:00",
+        "photos": []
+    },
+    {
+        "id": 64,
+        "name": "Korf 2",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:25+02:00",
+        "photos": []
+    },
+    {
+        "id": 65,
+        "name": "Korf 3",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:30+02:00",
+        "photos": []
+    },
+    {
+        "id": 66,
+        "name": "Korf 4",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:35+02:00",
+        "photos": []
+    },
+    {
+        "id": 67,
+        "name": "Korf 5",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:45+02:00",
+        "photos": []
+    },
+    {
+        "id": 68,
+        "name": "Korf 6",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:49+02:00",
+        "photos": []
+    },
+    {
+        "id": 69,
+        "name": "Korf 7",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:53+02:00",
+        "photos": []
+    },
+    {
+        "id": 70,
+        "name": "Korf 8",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:35:58+02:00",
+        "photos": []
+    },
+    {
+        "id": 42,
+        "name": "Kussenkar",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Lokaal",
+        "comments": "",
+        "timestamp": "2025-06-01T07:04:32+02:00",
+        "photos": []
+    },
+    {
+        "id": 61,
+        "name": "Lichte bal",
+        "quantity": 7,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-06-01T09:47:07+02:00",
+        "photos": [
+            "61_1.jpg"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Losse volleybal",
+        "quantity": 30,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Ballenkar",
+        "comments": "",
+        "timestamp": "2025-08-24T10:06:32+02:00",
+        "photos": [
+            "62_1.jpg"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Middennet - rood",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:36:45+02:00",
+        "photos": [
+            "52_1.jpg"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Netketting",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Beheerdersruimte",
+        "comments": "",
+        "timestamp": "2025-08-26T10:28:55+02:00",
+        "photos": [
+            "51_1.jpg"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Netpaal 1",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Materiaalruimte",
+        "comments": "Onderste netspanner dol. Netspanner vervangen",
+        "timestamp": "2025-09-07T13:36:07+02:00",
+        "photos": [
+            "1_1.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Netpaal 2",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "redelijk",
+        "location": "Materiaalruimte",
+        "comments": "Haakje vervangen",
+        "timestamp": "2025-09-07T13:36:11+02:00",
+        "photos": []
+    },
+    {
+        "id": 3,
+        "name": "Netpaal 3",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:36:14+02:00",
+        "photos": [
+            "3_1.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Netpaal 4",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Materiaalruimte",
+        "comments": "Onderste spanner vervangen",
+        "timestamp": "2025-09-07T13:36:18+02:00",
+        "photos": [
+            "4_1.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Netpaal 5",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:36:22+02:00",
+        "photos": []
+    },
+    {
+        "id": 7,
+        "name": "Netpaal 6",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "redelijk",
+        "location": "Materiaalruimte",
+        "comments": "Onderste spanner haak vervangen\r\nSpanner vervangen",
+        "timestamp": "2025-09-07T13:36:29+02:00",
+        "photos": [
+            "7_1.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Netpaal 7",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Materiaalruimte",
+        "comments": "Onderste spanner vervangen",
+        "timestamp": "2025-09-07T13:36:34+02:00",
+        "photos": [
+            "5_1.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Netpaal 8",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "redelijk",
+        "location": "Materiaalruimte",
+        "comments": "Karabijn vervangen",
+        "timestamp": "2025-09-07T13:36:39+02:00",
+        "photos": [
+            "8_1.jpg"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Netspanning onder",
+        "quantity": 3,
+        "owner": "gemeente",
+        "condition": "redelijk",
+        "location": "Beheerdersruimte",
+        "comments": "",
+        "timestamp": "2025-08-28T19:33:28+02:00",
+        "photos": [
+            "92_1.jpg"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Netstok",
+        "quantity": 4,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 2",
+        "comments": "",
+        "timestamp": "2025-06-01T09:44:16+02:00",
+        "photos": [
+            "58_1.jpg"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Nylon koord 5mm - spoel",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Beheerdersruimte",
+        "comments": "",
+        "timestamp": "2025-08-26T10:29:00+02:00",
+        "photos": [
+            "50_1.jpg"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Nylon koord 5mm gevlochten",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Beheerdersruimte",
+        "comments": "",
+        "timestamp": "2025-08-28T19:32:17+02:00",
+        "photos": [
+            "91_1.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Ophangbal aan touwen",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 1",
+        "comments": "Touwen en elastieken een beetje rommelig en niet uniform. Wel volledig bruikbaar",
+        "timestamp": "2025-06-01T09:27:00+02:00",
+        "photos": [
+            "21_1.jpg"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Pijl",
+        "quantity": 4,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-20T12:14:04+02:00",
+        "photos": []
+    },
+    {
+        "id": 90,
+        "name": "Pionnen klein",
+        "quantity": 15,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-26T19:05:40+02:00",
+        "photos": [
+            "90_1.jpg"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Platte hoedjes",
+        "quantity": 38,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-04T17:34:24+02:00",
+        "photos": [
+            "48_1.jpg"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Ronde hoedjes",
+        "quantity": 9,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:29:10+02:00",
+        "photos": [
+            "47_1.jpg"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Scheidingswagen",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Materiaalruimte",
+        "comments": "Gemeente heeft nieuwe lier besteld maar deze paste niet. Voorlopig hebben we de lier provisorisch vastgezet dus is weer werkbaar.\r\nGemeente gaat met Bosan overleggen voor een oplossing. Wij worden op de hoogte gehouden over voortgang en besluitvorming.",
+        "timestamp": "2025-09-07T13:36:46+02:00",
+        "photos": []
+    },
+    {
+        "id": 32,
+        "name": "Speeltuinkist",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 3",
+        "comments": "Kist zelf moet vervangen worden. Liefst vervangen door iets waarbij buigen en bukken niet benodigd is.\r\nInventaris gemaakt in ticket https:\/\/vtcwoerden.atlassian.net\/browse\/VTC-60",
+        "timestamp": "2025-08-26T19:07:03+02:00",
+        "photos": [
+            "32_1.jpg"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Spelparachutes",
+        "quantity": 6,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-20T12:13:34+02:00",
+        "photos": []
+    },
+    {
+        "id": 41,
+        "name": "Sponsorkar",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Lokaal",
+        "comments": "",
+        "timestamp": "2025-06-01T07:04:19+02:00",
+        "photos": []
+    },
+    {
+        "id": 71,
+        "name": "Springtouwtjes",
+        "quantity": 11,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-02T19:07:40+02:00",
+        "photos": [
+            "71_1.jpg",
+            "71_2.jpg"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Steppingstone groot",
+        "quantity": 3,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-20T12:12:11+02:00",
+        "photos": []
+    },
+    {
+        "id": 74,
+        "name": "Steppingstone klein",
+        "quantity": 3,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-20T12:11:56+02:00",
+        "photos": []
+    },
+    {
+        "id": 18,
+        "name": "Stoel 1",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "Beetje instabiel",
+        "timestamp": "2025-09-07T13:36:50+02:00",
+        "photos": []
+    },
+    {
+        "id": 17,
+        "name": "Stoel 2",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "Beetje instabiel, voetje linksvoor krom\r\nBoutje ontbreekt",
+        "timestamp": "2025-09-07T13:36:54+02:00",
+        "photos": [
+            "17_1.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Stoel 3",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:36:58+02:00",
+        "photos": []
+    },
+    {
+        "id": 15,
+        "name": "Stoel 4",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "Beetje instabiel",
+        "timestamp": "2025-09-07T13:37:02+02:00",
+        "photos": []
+    },
+    {
+        "id": 72,
+        "name": "Supercrawl Tunnel",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-26T19:08:55+02:00",
+        "photos": [
+            "72_1.jpg"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Systeemshirtjes blauw",
+        "quantity": 3,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-09-04T19:26:50+02:00",
+        "photos": [
+            "96_1.jpg"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Systeemshirtjes geel",
+        "quantity": 3,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-09-04T19:24:33+02:00",
+        "photos": [
+            "94_1.jpg"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Systeemshirtjes groen",
+        "quantity": 3,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-09-04T19:25:50+02:00",
+        "photos": [
+            "95_1.jpg"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Systeemshirtjes oranje",
+        "quantity": 3,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-09-04T19:27:33+02:00",
+        "photos": [
+            "97_1.jpg"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Tablet 1",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Keuken",
+        "comments": "Verouderd maar functioneert nog. Overwegen om nieuwe aan te schaffen",
+        "timestamp": "2025-08-24T09:52:57+02:00",
+        "photos": []
+    },
+    {
+        "id": 87,
+        "name": "Tablet 2",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Keuken",
+        "comments": "Verouderd maar functioneert nog. Overwegen om nieuwe aan te schaffen",
+        "timestamp": "2025-08-24T09:47:46+02:00",
+        "photos": []
+    },
+    {
+        "id": 88,
+        "name": "Tablet 3",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Keuken",
+        "comments": "Verouderd maar functioneert nog. Overwegen om nieuwe aan te schaffen",
+        "timestamp": "2025-08-24T09:48:00+02:00",
+        "photos": []
+    },
+    {
+        "id": 89,
+        "name": "Tablet 4",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Keuken",
+        "comments": "Verouderd maar functioneert nog. Overwegen om nieuwe aan te schaffen",
+        "timestamp": "2025-08-24T09:49:01+02:00",
+        "photos": []
+    },
+    {
+        "id": 9,
+        "name": "Telbord 1",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "N.v.t.",
+        "timestamp": "2025-09-07T13:37:08+02:00",
+        "photos": []
+    },
+    {
+        "id": 93,
+        "name": "Telbord 10",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:37:12+02:00",
+        "photos": [
+            "93_1.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Telbord 2",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "N.v.t.",
+        "timestamp": "2025-09-07T13:37:16+02:00",
+        "photos": []
+    },
+    {
+        "id": 12,
+        "name": "Telbord 3",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Trainerskast 2",
+        "comments": "Telramen zitten los, cijfers gaan niet goed door de ringen, functioneert nog half en is erg smerig.",
+        "timestamp": "2025-08-24T10:07:26+02:00",
+        "photos": [
+            "12_1.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Telbord 4",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_slecht",
+        "location": "Trainerskast 2",
+        "comments": "Telramen zitten nog vast, cijfers gaan zeer slecht door de ringen, ringen zijn meeren deels verbogen, functioneert zeer slecht en is erg smerig.",
+        "timestamp": "2025-08-24T10:07:33+02:00",
+        "photos": [
+            "14_1.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Telbord 5",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_slecht",
+        "location": "Trainerskast 2",
+        "comments": "Telramen zitten los, cijfers gaan niet goed door de ringen, functioneert zeer slecht en is erg smerig.",
+        "timestamp": "2025-08-24T10:07:39+02:00",
+        "photos": [
+            "13_1.jpg"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Telbord 6 (zwart)",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 2",
+        "comments": "Alleen voor gebruik op wedstrijddagen.",
+        "timestamp": "2025-08-28T19:26:35+02:00",
+        "photos": [
+            "82_1.jpg"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Telbord 7 (zwart)",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 2",
+        "comments": "Alleen voor gebruik op wedstrijddagen.",
+        "timestamp": "2025-09-07T13:38:35+02:00",
+        "photos": [
+            "83_1.jpg"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Telbord 8 (zwart)",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 2",
+        "comments": "Alleen voor gebruik op wedstrijddagen.",
+        "timestamp": "2025-09-07T13:38:45+02:00",
+        "photos": [
+            "84_1.jpg"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Telbord 9 (zwart)",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 2",
+        "comments": "Alleen voor gebruik op wedstrijddagen.",
+        "timestamp": "2025-09-07T13:38:53+02:00",
+        "photos": [
+            "85_1.jpg"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Telbord oud",
+        "quantity": 2,
+        "owner": "gemeente",
+        "condition": "redelijk",
+        "location": "Trainerskast 2",
+        "comments": "",
+        "timestamp": "2025-06-01T09:42:59+02:00",
+        "photos": [
+            "57_1.jpg"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Tennisbal",
+        "quantity": 48,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-26T19:10:50+02:00",
+        "photos": [
+            "73_1.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Trainingsladders",
+        "quantity": 2,
+        "owner": "vtc",
+        "condition": "goed",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:25:52+02:00",
+        "photos": [
+            "22_1.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Trainingsnet 1",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:37:22+02:00",
+        "photos": []
+    },
+    {
+        "id": 25,
+        "name": "Trainingsnet 2",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:37:26+02:00",
+        "photos": []
+    },
+    {
+        "id": 26,
+        "name": "Trainingsnet 3",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:37:30+02:00",
+        "photos": []
+    },
+    {
+        "id": 27,
+        "name": "Trainingsnet 4",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Materiaalruimte",
+        "comments": "",
+        "timestamp": "2025-09-07T13:37:35+02:00",
+        "photos": []
+    },
+    {
+        "id": 53,
+        "name": "Verenigingsbox",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:38:10+02:00",
+        "photos": [
+            "53_1.jpg"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Verrijdbare tribune",
+        "quantity": 9,
+        "owner": "gemeente",
+        "condition": "goed",
+        "location": "Zaal",
+        "comments": "",
+        "timestamp": "2025-06-01T09:49:48+02:00",
+        "photos": [
+            "38_1.jpg"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Voetjes",
+        "quantity": 8,
+        "owner": "vtc",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-08-20T12:14:24+02:00",
+        "photos": []
+    },
+    {
+        "id": 28,
+        "name": "Wedstrijdnet 1",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-06-01T10:58:47+02:00",
+        "photos": []
+    },
+    {
+        "id": 29,
+        "name": "Wedstrijdnet 2",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-06-01T10:58:55+02:00",
+        "photos": []
+    },
+    {
+        "id": 30,
+        "name": "Wedstrijdnet 3",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-06-01T10:59:03+02:00",
+        "photos": []
+    },
+    {
+        "id": 31,
+        "name": "Wedstrijdnet 4",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "zeer_goed",
+        "location": "Trainerskast 3",
+        "comments": "",
+        "timestamp": "2025-06-01T10:59:10+02:00",
+        "photos": []
+    },
+    {
+        "id": 33,
+        "name": "Wedstrijdnet 5",
+        "quantity": 1,
+        "owner": "gemeente",
+        "condition": "slecht",
+        "location": "Trainerskast 3",
+        "comments": "Klitteband bevestiging ontbreekt. Alle 6",
+        "timestamp": "2025-06-01T10:59:18+02:00",
+        "photos": []
+    },
+    {
+        "id": 46,
+        "name": "Whiteboard klein",
+        "quantity": 1,
+        "owner": "vtc",
+        "condition": "redelijk",
+        "location": "Trainerskast 1",
+        "comments": "",
+        "timestamp": "2025-06-01T09:27:48+02:00",
+        "photos": [
+            "46_1.jpg"
+        ]
+    }
+]

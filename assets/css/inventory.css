@@ -1,0 +1,526 @@
+/**
+ * VTC Inventory Frontend Styles
+ * 
+ * Custom styles for the inventory system frontend
+ */
+
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-bg: #f8f9fa;
+    --border-radius: 0.5rem;
+    --shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.vtc-inventory-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vtc-inventory-container body {
+    background: linear-gradient(135deg, #e8ecf0 0%, #b8c5d8 100%);
+    min-height: 100vh;
+}
+
+/* Navigation */
+.vtc-inventory-container .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Mobile navigation improvements */
+@media (max-width: 991.98px) {
+    .vtc-inventory-container .navbar-nav {
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    .vtc-inventory-container .navbar-nav .btn {
+        width: 100%;
+        margin: 0.25rem 0;
+        justify-content: center;
+    }
+    
+    .vtc-inventory-container .navbar-collapse {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 1rem;
+    }
+}
+
+/* Cards */
+.vtc-inventory-container .card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: linear-gradient(145deg, #ffffff 0%, #e8ecf0 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Checkbox styling for item selection */
+.vtc-inventory-container .card-checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.vtc-inventory-container .item-checkbox {
+    display: none;
+}
+
+.vtc-inventory-container .checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: transparent;
+}
+
+.vtc-inventory-container .checkbox-label:hover {
+    background: rgba(255, 255, 255, 1);
+    border-color: var(--primary-color);
+}
+
+.vtc-inventory-container .item-checkbox:checked + .checkbox-label {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.vtc-inventory-container .item-checkbox:checked + .checkbox-label i {
+    font-size: 12px;
+}
+
+.vtc-inventory-container .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--success-color));
+    opacity: 0.8;
+}
+
+.vtc-inventory-container .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Search container */
+.vtc-inventory-container .search-container {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.vtc-inventory-container .pdf-controls-container {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.vtc-inventory-container .search-input {
+    border-radius: 2rem;
+    border: 2px solid #e9ecef;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container .search-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.vtc-inventory-container .search-input:focus + .btn {
+    border-color: var(--primary-color);
+}
+
+.vtc-inventory-container #searchBtn {
+    border-radius: 0 2rem 2rem 0;
+    border-left: none;
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container #searchBtn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.vtc-inventory-container #clearFilters {
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container #clearFilters:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+.vtc-inventory-container .filter-btn {
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container .filter-btn.active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Item cards */
+.vtc-inventory-container .item-card {
+    height: 100%;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.vtc-inventory-container .item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.vtc-inventory-container .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.vtc-inventory-container .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.vtc-inventory-container .card-actions {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.vtc-inventory-container .card-title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.vtc-inventory-container .text-primary {
+    color: var(--primary-color) !important;
+}
+
+.vtc-inventory-container .bg-light {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e9ecef;
+}
+
+/* Condition badges */
+.vtc-inventory-container .condition-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.vtc-inventory-container .condition-zeer_goed { 
+    background-color: #d1e7dd; 
+    color: #0f5132; 
+    border: 1px solid #badbcc; 
+}
+
+.vtc-inventory-container .condition-goed { 
+    background-color: #d1ecf1; 
+    color: #0c5460; 
+    border: 1px solid #bee5eb; 
+}
+
+.vtc-inventory-container .condition-redelijk { 
+    background-color: #fff3cd; 
+    color: #856404; 
+    border: 1px solid #ffeaa7; 
+}
+
+.vtc-inventory-container .condition-slecht { 
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+}
+
+.vtc-inventory-container .condition-zeer_slecht { 
+    background-color: #f5c6cb; 
+    color: #721c24; 
+    border: 1px solid #f1b0b7; 
+}
+
+/* Owner badges */
+.vtc-inventory-container .owner-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, var(--secondary-color), #5a6268);
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid #495057;
+}
+
+/* QR Code styling */
+.vtc-inventory-container .qr-code-container {
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.vtc-inventory-container .qr-code {
+    width: 120px;
+    height: 120px;
+}
+
+.vtc-inventory-container .qr-code-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.vtc-inventory-container .qr-code-link:hover {
+    transform: scale(1.02);
+}
+
+.vtc-inventory-container .qr-code-link:hover .qr-code {
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.3);
+}
+
+/* Photo styling */
+.vtc-inventory-container .photo-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e9ecef;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.vtc-inventory-container .photo-container {
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.vtc-inventory-container .item-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.vtc-inventory-container .item-photo:hover {
+    transform: scale(1.05);
+}
+
+.vtc-inventory-container .no-photo {
+    text-align: center;
+    color: #6c757d;
+}
+
+.vtc-inventory-container .no-photo i {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Statistics cards */
+.vtc-inventory-container .stats-card {
+    background: linear-gradient(135deg, var(--primary-color), #0056b3);
+    color: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.vtc-inventory-container .stats-number {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* Photo preview */
+.vtc-inventory-container .photo-preview {
+    max-width: 120px;
+    margin: 0.25rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: transform 0.2s ease;
+}
+
+.vtc-inventory-container .photo-preview:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.vtc-inventory-container .btn-modern {
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container .btn-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Form controls */
+.vtc-inventory-container .form-control, 
+.vtc-inventory-container .form-select {
+    border-radius: 0.5rem;
+    border: 2px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container .form-control:focus, 
+.vtc-inventory-container .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Modal styling */
+.vtc-inventory-container .modal-content {
+    border-radius: var(--border-radius);
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.vtc-inventory-container .carousel-item img {
+    border-radius: var(--border-radius);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .vtc-inventory-container .search-container {
+        padding: 1rem;
+    }
+    
+    .vtc-inventory-container .stats-card {
+        margin-bottom: 1rem;
+    }
+    
+    /* Hide statistics row on mobile */
+    .vtc-inventory-container .stats-row {
+        display: none;
+    }
+}
+
+/* Login modal styling */
+.vtc-inventory-container .modal-header {
+    background: linear-gradient(135deg, var(--primary-color), #0056b3);
+    color: white;
+    border-bottom: none;
+}
+
+.vtc-inventory-container .modal-header .btn-close {
+    filter: invert(1);
+}
+
+/* Loading states */
+.vtc-inventory-container .loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.vtc-inventory-container .loading-spinner.hidden {
+    display: none;
+}
+
+.vtc-inventory-container .photo-placeholder {
+    position: relative;
+}
+
+.vtc-inventory-container .lazy {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.vtc-inventory-container .lazy.loaded {
+    opacity: 1;
+}
+
+/* Print styles */
+@media print {
+    .vtc-inventory-container .no-print {
+        display: none !important;
+    }
+    
+    .vtc-inventory-container .card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .vtc-inventory-container .qr-code-container {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+/* Animation for smooth transitions */
+.vtc-inventory-container .item-item {
+    transition: all 0.3s ease;
+}
+
+.vtc-inventory-container .item-item.hidden {
+    display: none !important;
+}
+
+/* Custom scrollbar for webkit browsers */
+.vtc-inventory-container ::-webkit-scrollbar {
+    width: 8px;
+}
+
+.vtc-inventory-container ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.vtc-inventory-container ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+.vtc-inventory-container ::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+}

@@ -1,0 +1,48 @@
+# VTC Inventory Data Directory Security
+# This file protects the data directory from direct access
+
+# Deny access to all files
+<Files "*">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Allow access to images only
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Deny access to PHP files
+<Files "*.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to JSON files
+<Files "*.json">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to text files
+<Files "*.txt">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to log files
+<Files "*.log">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Prevent directory browsing
+Options -Indexes
+
+# Additional security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options nosniff
+    Header set X-Frame-Options DENY
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>

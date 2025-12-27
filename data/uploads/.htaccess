@@ -1,0 +1,47 @@
+# VTC Inventory Uploads Directory Security
+# This file protects the uploads directory while allowing image access
+
+# Allow access to image files only
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|bmp|tiff)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Deny access to all other file types
+<FilesMatch "^(?!.*\.(jpg|jpeg|png|gif|webp|bmp|tiff)$).*$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Deny access to PHP files specifically
+<Files "*.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to executable files
+<FilesMatch "\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|sh|cgi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Prevent directory browsing
+Options -Indexes
+
+# Additional security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options nosniff
+    Header set X-Frame-Options DENY
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Cache-Control "public, max-age=31536000"
+</IfModule>
+
+# Set proper MIME types for images
+<IfModule mod_mime.c>
+    AddType image/jpeg .jpg .jpeg
+    AddType image/png .png
+    AddType image/gif .gif
+    AddType image/webp .webp
+    AddType image/bmp .bmp
+    AddType image/tiff .tiff
+</IfModule>
